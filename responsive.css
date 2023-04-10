@@ -105,7 +105,7 @@
         border-radius: 5px;
 
         font-size: 15px;
-        font-family: cursive;
+        font-family: monospace;
     }
 
     .mode_btn:active {
