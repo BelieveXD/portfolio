@@ -1,8 +1,8 @@
-@media screen and (max-width:1080px) {
+@media screen and (max-width: 420px) {
     body {
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
-        margin: 50px;
+        margin: 30px;
     }
 
     .dark-mode {
@@ -76,7 +76,7 @@
         height: auto;
         width: 60%;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 60px;
+        font-size: 30px;
         font-weight: bolder;
 
         display: flex;
@@ -108,7 +108,7 @@
         border: 2px solid black;
         border-radius: 5px;
 
-        font-size: 30px;
+        font-size: 15px;
         font-family: cursive;
     }
 
@@ -141,8 +141,8 @@
     }
 
     .photohere {
-        height: 400px;
-        width: 400px;
+        height: 200px;
+        width: 200px;
         border-radius: 10px;
         animation: iconanima 5s infinite ease-in-out;
     }
@@ -173,7 +173,7 @@
         height: auto;
         width: 60%;
 
-        font-size: 40px;
+        font-size: 15px;
         font-family: 'Courier New', Courier, monospace;
 
     }
@@ -192,7 +192,7 @@
         height: auto;
         width: auto;
         text-align: center;
-        font-size: 50px;
+        font-size: 30px;
 
         font-weight: bold;
         font-family: 'Courier New', Courier, monospace;
@@ -200,9 +200,9 @@
 
     .biohere {
         padding: 5px;
-        line-height: 40px;
+        line-height: 20px;
 
-        font-size: 35px;
+        font-size: 15px;
         font-weight: lighter;
         font-family: 'Courier New', Courier, monospace;
     }
@@ -223,7 +223,7 @@
         height: auto;
         width: auto;
         text-align: center;
-        font-size: 50px;
+        font-size: 30px;
 
         font-weight: bold;
         font-family: 'Courier New', Courier, monospace;
@@ -235,27 +235,27 @@
 
     .sec_edu {
         padding: 5px;
-        line-height: 40px;
+        line-height: 20px;
         font-family: 'Courier New', Courier, monospace;
-        font-size: 35px;
+        font-size: 15px;
 
         width: auto;
     }
 
     .sr_edu {
         padding: 5px;
-        line-height: 40px;
+        line-height: 20px;
         font-family: 'Courier New', Courier, monospace;
-        font-size: 35px;
+        font-size: 15px;
 
         width: auto;
     }
 
     .higher_edu {
         padding: 5px;
-        line-height: 40px;
+        line-height: 20px;
         font-family: 'Courier New', Courier, monospace;
-        font-size: 35px;
+        font-size: 15px;
 
         width: auto;
     }
@@ -263,7 +263,7 @@
     /* SKILL's PART START FROM HERE */
     .skills {
         box-sizing: border-box;
-        padding: 50px;
+        padding: 20px;
         margin-top: 50px;
         margin-bottom: 50px;
 
@@ -275,7 +275,7 @@
         height: auto;
         width: auto;
         text-align: center;
-        font-size: 50px;
+        font-size: 30px;
 
         font-weight: bold;
         font-family: 'Courier New', Courier, monospace;
@@ -291,11 +291,11 @@
 
     .skillset {
         box-sizing: border-box;
-        padding: 5px;
-        margin: 20px;
+        padding: 10px;
+        margin: 10px;
 
-        height: 200px;
-        width: 100%;
+        height: 100px;
+        width: 500px;
 
         display: flex;
         flex-direction: row;
@@ -305,8 +305,8 @@
     }
 
     .skill_img {
-        height: 160px;
-        width: auto;
+        height: 80px;
+        width: 80px;
     }
 
     .skill_img_desc {
@@ -317,8 +317,8 @@
         justify-content: start;
         align-self: flex-start;
 
-        font-size: 30px;
-        font-family: cursive;
+        font-size: 15px;
+        font-family:'Courier New', Courier, monospace;
     }
 
 
@@ -326,23 +326,34 @@
     .foot {
         box-sizing: border-box;
 
-        height: 250px;
+        height: 150px;
         width: 100%;
 
         display: flex;
         justify-content: space-around;
 
         background-color: rgba(15, 81, 59, 0.818);
+
+        font-size: 10px;
     }
 
     .foo1 {
+        box-sizing: border-box;
+        padding: 10px;
+
         height: auto;
         width: 30%;
     }
+    .foo1_img{
+        height: 130px;
+        width: auto;
+    }
+    
 
     .foo2 {
         height: auto;
         width: 30%;
+        line-height: 12px;
     }
 
     .foo3 {
@@ -351,13 +362,11 @@
 
         box-sizing: border-box;
         padding: 10px;
-        line-height: 25px;
+        line-height: 12px;
 
         list-style-type: disc;
 
-        font-family: cursive;
+        font-family:'Courier New', Courier, monospace;
     }
-
-    /* Responsiveness */
 
 }
