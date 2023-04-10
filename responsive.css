@@ -53,10 +53,6 @@
         transition: all 50ms ease-in-out;
     }
 
-    .sidei:hover {
-        transform: translateX(5px);
-    }
-
     .sideimg {
         height: 40px;
         width: 40px;
