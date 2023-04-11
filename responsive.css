@@ -35,6 +35,8 @@
     }
 
     .side_edge {
+        display: none;
+        
         height: 50px;
         width: 150px;
 
