@@ -35,16 +35,14 @@
     }
 
     .side_edge {
-        display: none;
-        
         height: 50px;
         width: 150px;
 
         background: transparent;
 
-        position: fixed;
-        top: 200px;
-        right: 2px;
+        position: absolute;
+        top: 550px;
+        right: 0px;
 
         display: flex;
         flex-direction: column;
